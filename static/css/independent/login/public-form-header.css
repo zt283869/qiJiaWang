@@ -1,0 +1,31 @@
+/*
+  注册、找回密码表单顶部
+*/
+/*
+  登录、注册、找回密码组件样式的公共变量
+*/
+.passwordFind-register-main {
+  min-height: 618px;
+}
+.passwordFind-register-main .formHeader {
+  height: 72px;
+  background-color: #3f67ff;
+  line-height: 72px;
+  color: #FFF;
+  padding: 0 17px 0 22px;
+}
+.passwordFind-register-main .formHeader .form-name {
+  font-size: 20px;
+}
+.passwordFind-register-main .formHeader .shortcut {
+  font-size: 14px;
+}
+.passwordFind-register-main .formHeader .shortcut span {
+  opacity: 0.48;
+}
+.passwordFind-register-main .formHeader .shortcut a {
+  color: #FFF;
+}
+.passwordFind-register-main .formHeader .iconfont {
+  color: #FFF;
+}

@@ -1,0 +1,90 @@
+.refer {
+  width: 100%;
+  min-height: 665px;
+}
+.refer .refer-inner {
+  width: 1190px;
+  margin: 0 auto;
+  min-height: 665px;
+}
+.refer .refer-inner h3 {
+  padding-top: 60px;
+  box-sizing: border-box;
+  font-size: 22px;
+  color: #FFFFFF;
+  text-align: center;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+.refer .refer-inner .refer-table {
+  width: 1190px;
+}
+.refer .refer-inner .refer-table .refer-table-left {
+  float: left;
+  width: 140px;
+  height: 513px;
+  background: #3864c8 ;
+  padding: 30px 0 30px 50px;
+  box-sizing: border-box;
+  margin-right: 40px;
+}
+.refer .refer-inner .refer-table .refer-table-left ul li {
+  font-size: 16px;
+  color: #7298f1;
+  height: 40px;
+  line-height: 40px;
+  list-style: disc;
+  cursor: pointer;
+}
+.refer .refer-inner .refer-table .refer-table-left ul .activeBg {
+  color: #d3dce6;
+}
+.refer .refer-inner .refer-table .refer-table-right {
+  float: left;
+  width: 902px;
+  background: #3864c8 ;
+  box-sizing: border-box;
+  min-height: 513px;
+}
+.refer .refer-inner .refer-table .refer-table-right .table-right-inner {
+  padding-bottom: 20px;
+}
+.refer .refer-inner .refer-table .refer-table-right .table-right-inner h1 {
+  font-size: 18px;
+  color: #d3dce6;
+  line-height: 46px;
+  border-bottom: 1px solid #6589E2;
+  padding-left: 36px;
+}
+.refer .refer-inner .refer-table .refer-table-right .table-right-inner .refer-table-bottom {
+  box-sizing: border-box;
+  padding: 0 36px;
+}
+.refer .refer-inner .refer-table .refer-table-right .table-right-inner .refer-table-bottom h6 {
+  font-size: 16px;
+  color: #d3dce6;
+  line-height: 46px;
+  margin-top: 10px;
+}
+.refer .refer-inner .refer-table .refer-table-right .table-right-inner .refer-table-bottom p {
+  font-size: 14px;
+  color: #B2CAFF;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+.refer .refer-inner .refer-table .refer-table-right .table-right-inner .refer-table-bottom ul {
+  border: 1px solid #6C95EE;
+  overflow: hidden;
+}
+.refer .refer-inner .refer-table .refer-table-right .table-right-inner .refer-table-bottom ul li {
+  float: left;
+  width: 50%;
+  height: 40px;
+  box-sizing: border-box;
+  border: 1px solid #6C95EE;
+  font-size: 14px;
+  color: #B2CAFF;
+  text-align: left;
+  line-height: 40px;
+  padding-left: 30px;
+}

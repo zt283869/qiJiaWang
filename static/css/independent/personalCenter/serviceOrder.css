@@ -1,0 +1,141 @@
+.service-order-table-wrapper {
+  padding: 14px 14px 3px 16px;
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 400px;
+}
+.service-order-table-wrapper .table,
+.service-order-table-wrapper table {
+  width: 100%;
+}
+.service-order-table-wrapper .order-list-item {
+  border-left: 1px solid #eaedec;
+  border-right: 1px solid #eaedec;
+  border-top: 1px solid #eaedec;
+  margin-top: 15px;
+}
+.service-order-table-wrapper .table-header {
+  font-size: 14px;
+  color: #838383;
+  background-color: #f8f9fb;
+}
+.service-order-table-wrapper .table-header .th,
+.service-order-table-wrapper .table-header th {
+  font-weight: 400;
+  padding: 7px 0 7px 9px;
+}
+.service-order-table-wrapper .table-header .th:first-child,
+.service-order-table-wrapper .table-header th:first-child {
+  width: 142px !important;
+  max-width: 142px !important;
+  text-align: left;
+  padding-left: 9px;
+}
+.service-order-table-wrapper .tr,
+.service-order-table-wrapper tr {
+  width: 100%;
+  text-align: center;
+  border-left: 1px solid #eaedec;
+  border-right: 1px solid #eaedec;
+}
+.service-order-table-wrapper .tr .el-button,
+.service-order-table-wrapper tr .el-button {
+  background: #235efd;
+  border-radius: 4px;
+  color: #FFF;
+  height: 28px;
+  line-height: 28px;
+  font-size: 14px;
+  padding: 0  11px;
+  min-width: 78px;
+  border: 0 none;
+}
+.service-order-table-wrapper .tr .el-button.red,
+.service-order-table-wrapper tr .el-button.red {
+  background: #f23149;
+}
+.service-order-table-wrapper .tr .td,
+.service-order-table-wrapper tr .td,
+.service-order-table-wrapper .tr td,
+.service-order-table-wrapper tr td {
+  border-bottom: 1px solid #eaedec;
+  color: #838383;
+  font-size: 14px;
+  padding: 12px 0;
+  max-width: 100px;
+  vertical-align: middle;
+}
+.service-order-table-wrapper .tr .td.border-l,
+.service-order-table-wrapper tr .td.border-l,
+.service-order-table-wrapper .tr td.border-l,
+.service-order-table-wrapper tr td.border-l {
+  border-left: 1px solid #eaedec;
+}
+.service-order-table-wrapper .tr .td.border-r,
+.service-order-table-wrapper tr .td.border-r,
+.service-order-table-wrapper .tr td.border-r,
+.service-order-table-wrapper tr td.border-r {
+  border-right: 1px solid #eaedec;
+}
+.service-order-table-wrapper .tr .td.operations .operations,
+.service-order-table-wrapper tr .td.operations .operations,
+.service-order-table-wrapper .tr td.operations .operations,
+.service-order-table-wrapper tr td.operations .operations {
+  padding: 0;
+}
+.service-order-table-wrapper .tr .td.operations .operation,
+.service-order-table-wrapper tr .td.operations .operation,
+.service-order-table-wrapper .tr td.operations .operation,
+.service-order-table-wrapper tr td.operations .operation {
+  font-size: 12px;
+  text-decoration: underline;
+  margin-top: 3px;
+}
+.service-order-table-wrapper .tr .td.operations .operation:first-of-type,
+.service-order-table-wrapper tr .td.operations .operation:first-of-type,
+.service-order-table-wrapper .tr td.operations .operation:first-of-type,
+.service-order-table-wrapper tr td.operations .operation:first-of-type {
+  margin-top: 7px;
+}
+.service-order-table-wrapper .tr .td.operations .operation a,
+.service-order-table-wrapper tr .td.operations .operation a,
+.service-order-table-wrapper .tr td.operations .operation a,
+.service-order-table-wrapper tr td.operations .operation a {
+  color: #838383;
+}
+.service-order-table-wrapper .tr .td.operations .operation a:hover,
+.service-order-table-wrapper tr .td.operations .operation a:hover,
+.service-order-table-wrapper .tr td.operations .operation a:hover,
+.service-order-table-wrapper tr td.operations .operation a:hover {
+  color: #235efd;
+}
+.service-order-table-wrapper .tr .td:first-child,
+.service-order-table-wrapper tr .td:first-child,
+.service-order-table-wrapper .tr td:first-child,
+.service-order-table-wrapper tr td:first-child {
+  width: 142px !important;
+  max-width: 142px !important;
+  padding-left: 9px;
+}
+.service-order-table-wrapper .tr:last-of-type td,
+.service-order-table-wrapper tr:last-of-type td {
+  border-bottom: 10px solid #F00;
+}
+.service-order-table-wrapper .tr .service-img,
+.service-order-table-wrapper tr .service-img {
+  width: 142px;
+  height: auto;
+}
+.service-order-table-wrapper .order-info {
+  text-align: left;
+  background: #f8f9fb;
+  font-size: 14px;
+  color: #a5a5a5;
+  padding: 9px 9px 5px 9px;
+}
+.service-order-table-wrapper .order-info .order-number {
+  color: #000000;
+}
+.service-order-table-wrapper .order-info > * {
+  margin-right: 18px;
+}

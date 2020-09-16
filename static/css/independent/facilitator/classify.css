@@ -1,0 +1,65 @@
+.facilitator-classify {
+  width: 1188px;
+  height: 101px;
+  background: #FFFFFF;
+  border: 1px solid #EAEDEC;
+  padding: 0 15px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+.facilitator-classify .classify-spec {
+  height: 52px;
+  border-bottom: 1px dashed #E7E7E7;
+}
+.facilitator-classify .classify-spec .classify-spec-title {
+  line-height: 52px;
+  font-size: 12px;
+  color: #999999;
+  float: left;
+  margin-right: 25px;
+}
+.facilitator-classify .classify-spec .classify-spec-content {
+  float: left;
+}
+.facilitator-classify .classify-spec .classify-spec-content ul li {
+  float: left;
+  font-size: 12px;
+  color: #4A4A4A;
+  line-height: 49px;
+  margin-right: 30px;
+  cursor: pointer;
+}
+.facilitator-classify .classify-spec .classify-spec-content ul .active {
+  color: #006DE1;
+}
+.facilitator-classify .classify-spec .el-checkbox__label {
+  font-size: 12px;
+  color: #4A4A4A;
+  line-height: 52px;
+  margin-right: 30px;
+}
+.facilitator-classify .classify-price {
+  height: 49px;
+}
+.facilitator-classify .classify-price .classify-price-title {
+  line-height: 49px;
+  font-size: 12px;
+  color: #999999;
+  float: left;
+  margin-right: 25px;
+}
+.facilitator-classify .classify-price .classify-price-content {
+  float: left;
+}
+.facilitator-classify .classify-price .classify-price-content ul li {
+  float: left;
+  font-size: 12px;
+  color: #4A4A4A;
+  line-height: 49px;
+  margin-right: 30px;
+  cursor: pointer;
+}
+.facilitator-classify .classify-price .classify-price-content ul .active {
+  color: #006DE1;
+}

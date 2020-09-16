@@ -1,0 +1,48 @@
+.service_finance {
+  margin: 26px 0 10px 0;
+}
+.service_finance .service_finance_service {
+  margin-bottom: 20px;
+}
+.service_finance .service_finance_service .finance_service {
+  margin-bottom: 20px;
+}
+.service_finance .service_finance_service .finance_service span {
+  display: block;
+  width: 102px;
+  height: 36px;
+  background: #3669FE;
+  border: 1px solid rgba(150, 150, 150, 0);
+  font-size: 16px;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 36px;
+}
+.service_finance .service_finance_service .finance_service .hr {
+  width: 1190px;
+  height: 1px;
+  background: #58909B;
+}
+.service_finance .service_finance_service .finance_service_list {
+  margin-left: -26px;
+}
+.service_finance .service_finance_service .finance_service_list .text-box {
+  float: left;
+  margin-left: 25px;
+  position: relative;
+  width: 380px;
+  height: 213px;
+}
+.service_finance .service_finance_service .finance_service_list .text-box img {
+  width: 100%;
+  height: 100%;
+}
+.service_finance .service_finance_service .finance_service_list .text-box span {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 18px;
+  color: #3D3D3D;
+  margin: -9px 0 0 -80px;
+}

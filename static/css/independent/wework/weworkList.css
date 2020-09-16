@@ -1,0 +1,78 @@
+.wework-list {
+  width: 861px;
+}
+.wework-list .wework-list-content {
+  padding: 10px 20px 0 9px;
+  border: 1px solid #EAEDEC;
+  box-sizing: border-box;
+  width: 860px;
+  height: 211px;
+  margin: 20px 0 0 0;
+}
+.wework-list .wework-list-content .wework-list-left {
+  width: 332px;
+  height: 190px;
+  float: left;
+  margin-right: 20px;
+  overflow: hidden;
+}
+.wework-list .wework-list-content .wework-list-left img {
+  width: 100%;
+  height: 100%;
+  transition: all 1s ease;
+}
+.wework-list .wework-list-content .wework-list-left:hover img {
+  transform: scale(1.1);
+}
+.wework-list .wework-list-content .wework-list-right {
+  width: 477px;
+  float: left;
+}
+.wework-list .wework-list-content .wework-list-right h1 {
+  font-size: 20px;
+  color: #000000;
+  line-height: 22px;
+  margin-bottom: 5px;
+}
+.wework-list .wework-list-content .wework-list-right span {
+  display: block;
+  font-size: 13px;
+  color: #969696;
+  line-height: 22px;
+}
+.wework-list .wework-list-content .wework-list-right span i {
+  width: 15px;
+  height: 15px;
+  display: block;
+  float: left;
+  margin-right: 8px;
+}
+.wework-list .wework-list-content .wework-list-right span i img {
+  width: 100%;
+  height: 100%;
+}
+.wework-list .wework-list-content .wework-list-right ul {
+  margin: 5px 0 27px 0;
+}
+.wework-list .wework-list-content .wework-list-right ul li {
+  display: inline-block;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border: 1px solid #235EFD;
+  border-radius: 2px;
+  font-size: 12px;
+  padding: 0 16px;
+  color: #235EFD;
+  margin: 10px 10px 0 0;
+}
+.wework-list .wework-list-content .wework-list-right .wework-list-area {
+  font-size: 13px;
+  color: #969696;
+}
+.wework-list .wework-list-content .wework-list-right .wework-list-area span {
+  display: inline-block;
+  font-size: 18px;
+  color: #235EFD;
+  font-weight: 500;
+}

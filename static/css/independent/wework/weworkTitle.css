@@ -1,0 +1,107 @@
+.wework-title {
+  width: 861px;
+  height: 211px;
+  background: #FFFFFF;
+  border: 1px solid #EAEDEC;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+.wework-title .wework-area {
+  height: 50px;
+  border-bottom: 1px dashed #E7E7E7;
+}
+.wework-title .wework-area .wework-area-title {
+  line-height: 50px;
+  font-size: 12px;
+  color: #999999;
+  float: left;
+  margin-right: 25px;
+}
+.wework-title .wework-area .wework-area-content {
+  float: left;
+}
+.wework-title .wework-area .wework-area-content ul li {
+  float: left;
+  font-size: 12px;
+  color: #4A4A4A;
+  line-height: 50px;
+  margin-right: 30px;
+  cursor: pointer;
+}
+.wework-title .wework-area .wework-area-content ul .active {
+  color: #006DE1;
+}
+.wework-title .wework-rank {
+  height: 50px;
+  border-bottom: 1px dashed #E7E7E7;
+}
+.wework-title .wework-rank .wework-rank-title {
+  line-height: 50px;
+  font-size: 12px;
+  color: #999;
+  float: left;
+  margin-right: 25px;
+}
+.wework-title .wework-rank .wework-rank-content {
+  float: left;
+}
+.wework-title .wework-rank .wework-rank-content ul li {
+  float: left;
+  font-size: 12px;
+  color: #4A4A4A;
+  line-height: 50px;
+  margin-right: 30px;
+  cursor: pointer;
+}
+.wework-title .wework-rank .wework-rank-content ul .active {
+  color: #006DE1;
+}
+.wework-title .wework-trade {
+  height: 52px;
+  border-bottom: 1px dashed #E7E7E7;
+}
+.wework-title .wework-trade .wework-trade-title {
+  line-height: 52px;
+  font-size: 12px;
+  color: #999999;
+  float: left;
+  margin-right: 25px;
+}
+.wework-title .wework-trade .wework-trade-content {
+  float: left;
+}
+.wework-title .wework-trade .wework-trade-content ul li {
+  float: left;
+  font-size: 12px;
+  color: #4A4A4A;
+  line-height: 52px;
+  margin-right: 30px;
+  cursor: pointer;
+}
+.wework-title .wework-trade .wework-trade-content ul .active {
+  color: #006DE1;
+}
+.wework-title .wework-acreage {
+  height: 53px;
+}
+.wework-title .wework-acreage .wework-acreage-title {
+  line-height: 53px;
+  font-size: 12px;
+  color: #999999;
+  float: left;
+  margin-right: 25px;
+}
+.wework-title .wework-acreage .wework-acreage-content {
+  float: left;
+}
+.wework-title .wework-acreage .wework-acreage-content ul li {
+  float: left;
+  font-size: 12px;
+  color: #4A4A4A;
+  line-height: 53px;
+  margin-right: 30px;
+  cursor: pointer;
+}
+.wework-title .wework-acreage .wework-acreage-content ul .active {
+  color: #006DE1;
+}

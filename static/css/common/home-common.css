@@ -1,0 +1,29 @@
+/* 首页公共模块大标题 */
+.home-public-title{
+  font-size: 28px;
+  color: #2E2A30;
+  line-height:40px;
+}
+.home-public-subTitle {
+  margin-top:7px;
+}
+.home-public-subTitle .subTitle{
+  font-size: 14px;
+  color: #AFAFAF;
+  line-height:21px;
+  position: relative;
+}
+.home-public-subTitle .subTitle:before,
+.home-public-subTitle .subTitle:after{
+  content: '';
+  display: block;
+  border-top:2px solid #AFAFAF;
+  position: absolute;
+  top:50%;
+  margin-top:-1px;
+  width:59px;
+  right:-65px;
+}
+.home-public-subTitle .subTitle:before{
+  left:-65px;
+}

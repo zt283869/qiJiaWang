@@ -1,0 +1,177 @@
+.wework-details-content {
+  width: 780px;
+  margin: 0 0 15px 0;
+}
+.wework-details-content .content-nav {
+  height: 35px;
+}
+.wework-details-content .content-nav ul {
+  width: 780px;
+  height: 35px;
+  border-bottom: 2px solid #E1E1E1;
+}
+.wework-details-content .content-nav ul li {
+  float: left;
+  line-height: 35px;
+  font-size: 16px;
+  color: #000000;
+  margin-right: 20px;
+  padding: 0 5px;
+  cursor: pointer;
+}
+.wework-details-content .content-nav ul li:hover {
+  color: #235EFD;
+  border-bottom: 2px solid #235EFD;
+}
+.wework-details-content .content-nav ul .describe {
+  color: #235EFD;
+  border-bottom: 2px solid #235EFD;
+}
+.wework-details-content .synopsis-bottom {
+  width: 780px;
+}
+.wework-details-content .synopsis-bottom .content-text {
+  width: 780px;
+  margin: 15px 0 19px 0;
+}
+.wework-details-content .synopsis-bottom .content-text p {
+  font-size: 14px;
+  color: #4A4A4A;
+  line-height: 24px;
+}
+.wework-details-content .synopsis-bottom .img-box {
+  width: 780px;
+  height: 797px;
+}
+.wework-details-content .synopsis-bottom .img-box img {
+  width: 100%;
+  height: 100%;
+}
+.wework-details-content .synopsis-bottom .synopsis-text {
+  height: 120px;
+  margin: 25px 0 22px 0;
+}
+.wework-details-content .synopsis-bottom .synopsis-text p {
+  font-size: 14px;
+  color: #4A4A4A;
+  line-height: 24px;
+}
+.wework-details-content .synopsis-bottom .synopsis-img {
+  margin-bottom: 93px;
+  height: 252px;
+}
+.wework-details-content .synopsis-bottom .synopsis-img img {
+  width: 100%;
+  height: 100%;
+}
+.wework-details-content .assort-bottom {
+  width: 780px;
+}
+.wework-details-content .assort-bottom .content-text {
+  width: 780px;
+  margin: 15px 0 19px 0;
+}
+.wework-details-content .assort-bottom .content-text p {
+  font-size: 14px;
+  color: #4A4A4A;
+  line-height: 24px;
+}
+.wework-details-content .assort-bottom .img-box {
+  width: 780px;
+  height: 797px;
+}
+.wework-details-content .assort-bottom .img-box img {
+  width: 100%;
+  height: 100%;
+}
+.wework-details-content .assort-bottom .assort-text {
+  height: 120px;
+  margin: 25px 0 22px 0;
+}
+.wework-details-content .assort-bottom .assort-text p {
+  font-size: 14px;
+  color: #4A4A4A;
+  line-height: 24px;
+}
+.wework-details-content .assort-bottom .assort-img {
+  margin-bottom: 93px;
+  height: 252px;
+}
+.wework-details-content .assort-bottom .assort-img img {
+  width: 100%;
+  height: 100%;
+}
+.wework-details-content .recruit-bottom {
+  width: 780px;
+}
+.wework-details-content .recruit-bottom .content-text {
+  width: 780px;
+  margin: 15px 0 19px 0;
+}
+.wework-details-content .recruit-bottom .content-text p {
+  font-size: 14px;
+  color: #4A4A4A;
+  line-height: 24px;
+}
+.wework-details-content .recruit-bottom .img-box {
+  width: 780px;
+  height: 797px;
+}
+.wework-details-content .recruit-bottom .img-box img {
+  width: 100%;
+  height: 100%;
+}
+.wework-details-content .recruit-bottom .recruit-text {
+  height: 120px;
+  margin: 25px 0 22px 0;
+}
+.wework-details-content .recruit-bottom .recruit-text p {
+  font-size: 14px;
+  color: #4A4A4A;
+  line-height: 24px;
+}
+.wework-details-content .recruit-bottom .recruit-img {
+  margin-bottom: 93px;
+  height: 252px;
+}
+.wework-details-content .recruit-bottom .recruit-img img {
+  width: 100%;
+  height: 100%;
+}
+.wework-details-content .discounts-bottom {
+  width: 780px;
+}
+.wework-details-content .discounts-bottom .content-text {
+  width: 780px;
+  margin: 15px 0 19px 0;
+}
+.wework-details-content .discounts-bottom .content-text p {
+  font-size: 14px;
+  color: #4A4A4A;
+  line-height: 24px;
+}
+.wework-details-content .discounts-bottom .img-box {
+  width: 780px;
+  height: 797px;
+}
+.wework-details-content .discounts-bottom .img-box img {
+  width: 100%;
+  height: 100%;
+}
+.wework-details-content .discounts-bottom .discounts-text {
+  height: 120px;
+  margin: 25px 0 22px 0;
+}
+.wework-details-content .discounts-bottom .discounts-text p {
+  font-size: 14px;
+  color: #4A4A4A;
+  line-height: 24px;
+}
+.wework-details-content .discounts-bottom .discounts-img {
+  margin-bottom: 93px;
+  height: 252px;
+}
+.wework-details-content .discounts-bottom .discounts-img img {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,84 @@
+.flow {
+  width: 100%;
+  height: 415px;
+  background: #f7f7f7;
+  overflow: hidden;
+  position: relative;
+}
+.flow .striping {
+  display: block;
+  width: 100%;
+  border: 1px dashed #BFBFBF;
+  margin-top: 192px;
+  z-index: 1;
+}
+.flow .flow-inner {
+  width: 1190px;
+  height: 415px;
+  margin: 0 auto;
+  padding-top: 59px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -585px;
+}
+.flow .flow-inner h3 {
+  font-size: 22px;
+  color: #313131;
+  text-align: center;
+  margin-bottom: 53px;
+}
+.flow .flow-inner dl {
+  width: 154px;
+  text-align: center;
+  overflow: hidden;
+  margin-right: 190px;
+  float: left;
+  z-index: 999;
+}
+.flow .flow-inner dl dt {
+  width: 86px;
+  height: 86px;
+  background: #ffffff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 88px;
+  border: 2px solid #97B9FF;
+  margin: 0 0 20px 30px;
+}
+.flow .flow-inner dl dt img {
+  width: 48px;
+  height: 51px;
+  margin-bottom: 5px;
+}
+.flow .flow-inner dl dd span {
+  font-size: 18px;
+  color: #424242;
+}
+.flow .flow-inner dl dd span:nth-of-type(1) {
+  margin-left: 10px;
+}
+.flow .flow-inner dl dd ul {
+  overflow: hidden;
+  margin: 22px 0 0 20px;
+}
+.flow .flow-inner dl dd ul li {
+  font-size: 14px;
+  color: #b2b2b2;
+  line-height: 24px;
+  text-align: left;
+  cursor: pointer;
+}
+.flow .flow-inner dl dd ul li i {
+  display: block;
+  width: 4px;
+  height: 4px;
+  background: #b2b2b2;
+  border-radius: 50%;
+  float: left;
+  margin: 10px 10px 0 5px;
+}
+.flow .flow-inner dl:nth-of-type(4) {
+  margin-right: 0;
+}

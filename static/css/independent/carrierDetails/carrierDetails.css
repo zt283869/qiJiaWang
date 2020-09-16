@@ -1,0 +1,114 @@
+.carrierDetails {
+  width: 1190px;
+  min-height: 600px;
+  margin: 0 auto 40px;
+}
+.carrierDetails .carrierDetails-nav {
+  margin: 31px 0 12px 0;
+}
+.carrierDetails .carrierDetails-nav .el-breadcrumb__item__inner {
+  font-size: 12px;
+  color: #999999;
+  line-height: 18px;
+}
+.carrierDetails .carrierDetails-nav .el-breadcrumb__item__inner a {
+  font-size: 12px;
+  color: #999999;
+  line-height: 18px;
+}
+.carrierDetails .carrierDetails-nav .el-breadcrumb__item:last-child .el-breadcrumb__item__inner {
+  font-size: 12px;
+  color: #666666;
+  line-height: 18px;
+}
+.carrierDetails .carrierDetails-nav .el-breadcrumb__item .el-breadcrumb__separator {
+  color: #999999;
+}
+.carrierDetails .carrierDetails-content .carrierDetails-content-left {
+  float: left;
+  width: 820px;
+}
+.carrierDetails .carrierDetails-content .carrierDetails-content-left h1 {
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+.carrierDetails .carrierDetails-content .carrierDetails-content-left .time {
+  width: 820px;
+  height: 14px;
+  line-height: 14px;
+}
+.carrierDetails .carrierDetails-content .carrierDetails-content-left .time span {
+  display: block;
+  float: left;
+  margin-right: 20px;
+  font-size: 12px;
+  color: #999;
+}
+.carrierDetails .carrierDetails-content .carrierDetails-content-left .content-details {
+  width: 820px;
+}
+.carrierDetails .carrierDetails-content .carrierDetails-content-left .content-details .carrier-img {
+  width: 820px;
+  height: 354px;
+  margin: 20px 0;
+}
+.carrierDetails .carrierDetails-content .carrierDetails-content-left .content-details .carrier-img img {
+  width: 100%;
+  height: 100%;
+}
+.carrierDetails .carrierDetails-content .carrierDetails-content-left .content-details .carrier-text {
+  width: 820px;
+  margin-bottom: 80px;
+}
+.carrierDetails .carrierDetails-content .carrierDetails-content-left .content-details .carrier-text p {
+  font-size: 14px;
+  color: #4A4A4A;
+  text-indent: 28px;
+  line-height: 26px;
+}
+.carrierDetails .carrierDetails-content .carrierDetails-content-left .content-details .realize {
+  text-align: center;
+}
+.carrierDetails .carrierDetails-content .carrierDetails-content-left .content-details .realize .el-button--primary {
+  background: #3669FE;
+}
+.carrierDetails .carrierDetails-content .carrierDetails-content-right {
+  float: right;
+  width: 295px;
+  margin-left: 50px;
+}
+.carrierDetails .carrierDetails-content .carrierDetails-content-right .carrier-title {
+  height: 32px;
+  border-bottom: 1px solid #e9e9e9;
+}
+.carrierDetails .carrierDetails-content .carrierDetails-content-right .carrier-title span {
+  padding-bottom: 10px;
+  height: 32px;
+  border-bottom: 2px solid #3669Fe;
+}
+.carrierDetails .carrierDetails-content .carrierDetails-content-right .text-list {
+  width: 295px;
+}
+.carrierDetails .carrierDetails-content .carrierDetails-content-right .text-list dl {
+  width: 295px;
+  height: 58px;
+  margin-top: 12px;
+}
+.carrierDetails .carrierDetails-content .carrierDetails-content-right .text-list dl dt {
+  float: left;
+  width: 120px;
+  height: 58px;
+}
+.carrierDetails .carrierDetails-content .carrierDetails-content-right .text-list dl dt img {
+  width: 100%;
+  height: 100%;
+}
+.carrierDetails .carrierDetails-content .carrierDetails-content-right .text-list dl dd {
+  width: 165px;
+  float: left;
+  margin: 5px 0 0 10px;
+  font-size: 14px;
+  color: #4a4a4a;
+  height: 40px;
+  overflow: hidden;
+}

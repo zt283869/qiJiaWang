@@ -1,0 +1,79 @@
+.attract {
+  width: 295px;
+  overflow: hidden;
+}
+.attract .attract-top {
+  height: 51px;
+  border-bottom: 1px solid #E0E0E0;
+  margin-bottom: 15px;
+}
+.attract .attract-top .attract-top-left {
+  float: left;
+  width: 31px;
+  height: 30px;
+  margin-right: 10px;
+}
+.attract .attract-top .attract-top-left img {
+  width: 100%;
+  height: 100%;
+}
+.attract .attract-top .attract-top-right {
+  width: 250px;
+  float: left;
+}
+.attract .attract-top .attract-top-right span {
+  display: block;
+  font-size: 16px;
+  color: #000000;
+}
+.attract .attract-top .attract-top-right span:nth-of-type(2) {
+  font-size: 14px;
+  color: #C1C1C1;
+}
+.attract .attract-center {
+  height: 90px;
+}
+.attract .attract-center .attract-center-left {
+  float: left;
+  width: 103px;
+  height: 73px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.attract .attract-center .attract-center-left img {
+  width: 100%;
+  height: 100%;
+}
+.attract .attract-center .attract-center-right {
+  width: 178px;
+  float: left;
+}
+.attract .attract-center .attract-center-right span {
+  display: block;
+  font-size: 14px;
+  color: #000000;
+  margin-bottom: 5px;
+}
+.attract .attract-center .attract-center-right span:nth-of-type(2) {
+  font-size: 12px;
+  color: #969696;
+}
+.attract .attract-bottom {
+  margin-top: -10px;
+}
+.attract .attract-bottom ul li {
+  font-size: 13px;
+  color: #000000;
+  line-height: 18px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.attract .attract-bottom ul li span {
+  display: block;
+  width: 3px;
+  height: 3px;
+  background: #000;
+  border-radius: 50%;
+  float: left;
+  margin: 7px 10px 0 0;
+}

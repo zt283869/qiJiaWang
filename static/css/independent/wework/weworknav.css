@@ -1,0 +1,16 @@
+.wework-nav {
+  margin: 31px 0 12px 0;
+}
+.wework-nav .el-breadcrumb__item__inner {
+  font-size: 12px;
+  color: #999999;
+  line-height: 18px;
+}
+.wework-nav .el-breadcrumb__item:last-child .el-breadcrumb__item__inner {
+  font-size: 12px;
+  color: #666666;
+  line-height: 18px;
+}
+.wework-nav .el-breadcrumb__item .el-breadcrumb__separator {
+  color: #999999;
+}

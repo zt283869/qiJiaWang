@@ -1,0 +1,87 @@
+.message {
+  width: 100%;
+  height: 553px;
+  background: #fff;
+}
+.message .message-inner {
+  width: 1190px;
+  height: 553px;
+  margin: 0 auto;
+  padding-top: 57px;
+  box-sizing: border-box;
+}
+.message .message-inner h3 {
+  font-size: 22px;
+  color: #313131;
+  text-align: center;
+  margin-bottom: 41px;
+}
+.message .message-inner .message-bottom .message-bottom-left {
+  float: left;
+  width: 503px;
+  height: 400px;
+  border: 1px solid #E9E9E9;
+  padding: 24px 0 0 45px;
+  box-sizing: border-box;
+  background: #fff;
+  margin-left: 30px;
+}
+.message .message-inner .message-bottom .message-bottom-left .el-form {
+  width: 399px;
+}
+.message .message-inner .message-bottom .message-bottom-left .el-form .el-form-item:nth-of-type(3) {
+  margin-bottom: 0;
+}
+.message .message-inner .message-bottom .message-bottom-left .el-form-item__label {
+  width: 81px !important;
+  font-size: 16px;
+  color: #333333;
+}
+.message .message-inner .message-bottom .message-bottom-left .el-form-item__content {
+  margin-left: 0!important;
+}
+.message .message-inner .message-bottom .message-bottom-left .el-input__inner {
+  border-radius: 0;
+}
+.message .message-inner .message-bottom .message-bottom-left .message-bottom-present {
+  width: 503px;
+  text-align: center;
+  margin-top: 36px;
+}
+.message .message-inner .message-bottom .message-bottom-left .message-bottom-present .el-button {
+  width: 119px;
+  height: 33px;
+  background: #235EFD;
+  border-radius: 2px;
+}
+.message .message-inner .message-bottom .message-bottom-right {
+  float: left;
+  width: 472px;
+  height: 400px;
+  background: #F9F9F9;
+  border: 1px solid #ECECEC;
+  padding: 40px 0 0 38px;
+  box-sizing: border-box;
+  margin-left: 30px;
+}
+.message .message-inner .message-bottom .message-bottom-right h4 {
+  font-size: 20px;
+  color: #333333;
+  margin-bottom: 17px;
+}
+.message .message-inner .message-bottom .message-bottom-right span {
+  display: block;
+  font-size: 14px;
+  color: #555555;
+  margin-bottom: 21px;
+}
+.message .message-inner .message-bottom .message-bottom-right .erweima {
+  width: 122px;
+  height: 122px;
+  float: right;
+  margin-right: 175px;
+}
+.message .message-inner .message-bottom .message-bottom-right .erweima img {
+  width: 100%;
+  height: 100%;
+}

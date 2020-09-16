@@ -1,0 +1,125 @@
+@import './variable.less';
+
+@bg-color1:#F8F9FB;
+@color1:#A5A5A5;
+@color2:#000;
+@color3:#838383;
+@border-color1:#EAEDEC;
+@btn-color1:#235EFD;
+@btn-color2:#F23149;
+@padding1:9px;
+
+
+.service-order-table-wrapper{
+  padding:14px 14px 3px 16px;
+  width:100%;
+  box-sizing: border-box;
+  min-height:400px;
+  & .table,
+  & table{
+    width:100%;
+  }
+  & .order-list-item{
+    border-left:1px solid @border-color1;
+    border-right:1px solid @border-color1;
+    border-top:1px solid @border-color1;
+    margin-top:15px;
+  }
+    & .table-header{
+      font-size: 14px;
+      color: #838383;
+      background-color: @bg-color1;
+      & .th,
+      & th{
+        font-weight:400;
+        padding:7px 0 7px 9px;
+        &:first-child{
+          width:142px !important;
+          max-width:142px !important;
+          text-align: left;
+          padding-left:@padding1;
+        }
+      }
+    }
+  & .tr,
+  & tr{
+    width:100%;
+    text-align: center;
+    border-left:1px solid @border-color1;
+    border-right:1px solid @border-color1;
+    & .el-button{
+      background: @btn-color1;
+      border-radius: 4px;
+      color: #FFF;
+      height:28px;
+      line-height:28px;
+      font-size:14px;
+      padding:0  11px;
+      min-width:78px;
+      border:0 none;
+      &.red{
+        background: @btn-color2;
+      }
+    }
+    & .td,
+    & td{
+      border-bottom:1px solid @border-color1;
+      color: @color3;
+      font-size:14px;
+      padding:12px 0;
+      max-width:100px;
+      vertical-align: middle;
+      &.border-l{
+        border-left:1px solid @border-color1;
+      }
+      &.border-r{
+        border-right:1px solid @border-color1;
+      }
+      &.operations .operations{
+        padding:0;
+      }
+      &.operations .operation{
+        font-size: 12px;
+        text-decoration: underline;
+        margin-top:3px;
+        &:first-of-type{
+          margin-top:7px;
+        }
+        & a{
+          color: @color3;
+          &:hover{
+            color: @btn-color1;
+          }
+        }
+      }
+      &:first-child{
+        width:142px !important;
+        max-width:142px !important;
+        padding-left: @padding1;
+      }
+    }
+    &:last-of-type{
+      & td{
+        border-bottom:10px solid #F00;
+      }
+    }
+
+    & .service-img{
+      width:142px;
+      height:auto;
+    }
+  }
+  & .order-info{
+    text-align: left;
+    background: @bg-color1;
+    font-size: 14px;
+    color: @color1;
+      padding:9px 9px 5px 9px;
+    & .order-number{
+      color: @color2;
+    }
+    & > *{
+      margin-right: 18px;
+    }
+  }
+}

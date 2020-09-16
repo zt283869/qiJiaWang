@@ -1,0 +1,41 @@
+.accountInf {
+  width: 930px;
+  height: 230px;
+  background: #ffffff;
+}
+.accountInf .personalInfHead {
+  width: 72px;
+  font-size: 18px;
+  color: #235EFD;
+  padding: 14px 12px;
+  border-bottom: 2px solid #235EFD;
+}
+.accountInf .personalInfMain {
+  border-top: 1px solid #E9E9E9;
+}
+.accountInf .personalInfMain .userNuM {
+  padding: 14px 10px;
+  font-size: 16px;
+  color: #000000;
+}
+.accountInf .personalInfMain .userNuM span:nth-of-type(3) {
+  display: block;
+  font-size: 14px;
+  color: #4A4A4A;
+  padding-top: 6px;
+}
+.accountInf .public-tab-name {
+  border-bottom: 2px solid #3B64FE;
+}
+.accountInf .userborder {
+  border: 1px solid #E9E9E9;
+}
+.accountInf .userPass {
+  padding: 32px 0 35px;
+}
+.accountInf .userPass span:nth-of-type(1) {
+  padding-left: 10px;
+}
+.accountInf .userPass button a {
+  color: #ffffff;
+}

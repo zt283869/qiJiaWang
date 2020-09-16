@@ -1,0 +1,13 @@
+.resetInf {
+  width: 930px;
+  background: #ffffff;
+}
+.resetInf .el-input {
+  width: 200px !important;
+}
+.resetInf .personalInfMain {
+  border-top: 1px solid #E9E9E9;
+}
+.resetInf .el-form {
+  padding: 34px 0 30px;
+}

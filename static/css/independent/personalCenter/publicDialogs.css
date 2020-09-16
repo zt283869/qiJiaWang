@@ -1,0 +1,377 @@
+/*
+* 个人中心服务列表各弹窗样式
+* by zhen wen
+*/
+
+/*服务订单 start*/
+.user-service-order-dialog textarea {
+  resize: none;
+}
+
+/* user-service-order-dialog 为"服务订单所有弹窗公共样式名 */
+.user-service-order-dialog.el-dialog--confirm {
+  width: 520px;
+}
+
+.el-dialog--confirm {
+  width: 120px;
+}
+
+.user-service-order-dialog.el-dialog--evaluate {
+  width: 950px;
+}
+
+/* user-service-order-dialog2 为"退款详情/维权详情/申请退款/申请维权"弹窗的公共样式名 */
+.user-service-order-dialog.user-service-order-dialog2 {
+  width: 628px;
+}
+
+.user-service-order-dialog,
+.user-service-order-dialog .el-dialog__body {
+  color: #666;
+  font-size: 14px;
+}
+
+.user-service-order-dialog .el-dialog__body {
+  padding: 0;
+}
+
+.user-service-order-dialog .el-dialog__header {
+  background: #F6F6F6;
+  line-height: 50px;
+  padding: 0 22px 0 16px;
+}
+
+.user-service-order-dialog .el-dialog__header .el-dialog__headerbtn {
+  line-height: inherit;
+}
+
+.user-service-order-dialog .el-dialog__title {
+  font-size: 14px;
+  color: #555555;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.user-service-order-dialog .el-icon-close:before {
+  font-size: 10px;
+}
+
+.user-service-order-dialog .el-button + .el-button {
+  margin-left: 20px;
+}
+
+.user-service-order-dialog .el-button,
+.user-service-order-dialog .el-button span {
+  line-height: 32px;
+  display: inline-block;
+  width: auto;
+  font-size: 14px;
+}
+
+.user-service-order-dialog .el-button {
+  padding: 0px 16px;
+}
+
+.user-service-order-dialog .el-button--primary,
+.user-service-order-dialog .el-button--primary span {
+  background: #235EFD;
+  border-color: #235EFD;
+}
+
+.user-service-order-dialog .el-button--default,
+.user-service-order-dialog .el-button--default span {
+  color: #666666;
+  border-color: #D9D9D9;
+}
+
+.user-service-order-dialog.el-dialog--confirm .el-dialog__body {
+  text-align: center;
+  padding: 52px 0 53px;
+  line-height: 20px;
+}
+
+.user-service-order-dialog.el-dialog--confirm .el-dialog__footer {
+  padding: 0;
+}
+
+.user-service-order-dialog.el-dialog--confirm .dialog-footer {
+  padding: 20px 18px 22px 0;
+}
+
+.user-service-order-dialog .single-border {
+  border-top: 1px solid #E9E9E9;
+}
+
+.user-service-order-dialog2.el-dialog__body {
+  padding: 46px 55px 0;
+}
+
+.user-service-order-dialog .order-number {
+  line-height: 20px;
+}
+
+.user-service-order-dialog .reason-wrapper {
+  line-height: 20px;
+}
+
+.user-service-order-dialog .detail {
+  color: #4a4a4a;
+  line-height:18px;
+}
+
+.user-service-order-dialog .reason {
+  white-space: nowrap;
+  display: block;
+}
+
+.user-service-order-dialog .attachment,
+.user-service-order-dialog .attachment span {
+  font-size: 12px !important;
+  color: #666666 !important;
+}
+.user-service-order-dialog .progress .td li{
+  line-height:34px;
+}
+
+.user-service-order-dialog .iconfont:before {
+  font-size: 10px;
+  margin-right: 8px;
+}
+
+.user-service-order-dialog .el-upload__tip {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+/* user-service-order-dialog3 为"退款详情/维权详情"弹窗的公共样式名 */
+.user-service-order-dialog3 .dialog-footer {
+  padding-top: 44px;
+  margin-top: 42px;
+}
+
+.user-service-order-dialog2 .el-dialog__footer dl {
+  text-align: left;
+  line-height: 20px;
+}
+
+.user-service-order-dialog2 .el-dialog__footer dt {
+  margin-bottom: 16px;
+}
+
+.user-service-order-dialog2 .el-dialog__footer dd {
+  margin-bottom: 5px;
+}
+
+.user-service-order-dialog2 .el-dialog__footer {
+  padding: 0;
+}
+
+.user-service-order-dialog2 .detail-warp {
+  padding-top: 15px;
+}
+
+.reason-wrapper > div{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.el-dialog--applyToWq .el-button{
+  margin-right:40px;
+}
+.el-dialog--applyToWq .clearfix:first-child{
+  margin-bottom:25px;
+}
+.el-dialog--applyToWq .clearfix > div:first-child{
+  width:62px;
+  margin-right:16px;
+  color: #000;
+}
+.el-dialog--applyToWq .clearfix > div:nth-child(2){
+  width: 470px;
+}
+.el-dialog--applyToWq .progress{
+  line-height:34px;
+}
+.el-dialog--applyToWq .progress span:first-child{
+  margin-right:39px;
+}
+.el-dialog--applyToWq .single-border{
+  margin:31px 0 24px;
+}
+.el-dialog--applyToWq .dialog-title{
+  font-size: 18px;
+  color: #000000;
+  line-height: 22px;
+  margin-top:29px;
+}
+.el-dialog--applyToWq .td:first-child{
+  padding-right: 17px;
+  color: #000000;
+  line-height: 22px;
+}
+.el-dialog--applyToWq .el-form-item{
+  margin-bottom:12px;
+}
+.el-dialog--applyToWq .attachment-wrapper{
+  margin-top:23px;
+}
+.el-dialog--applyToWq .attachment svg{
+  width:11px;
+  margin-bottom:-2px;
+}
+.el-dialog--applyToWq .attachment svg.upload{
+  width:17px;
+  margin-bottom:-3px;
+}
+
+/* user-service-order-dialog4 为"申请退款/申请维权"弹窗的公共样式名 */
+.user-service-order-dialog4 .dialog-footer .el-button {
+  /*margin-top: 20px;*/
+}
+
+.user-service-order-dialog4 textarea {
+  width: 475px;
+  height: 179px;
+  border: 1px solid #D9D9D9;
+  border-radius: 4px;
+  color: #666;
+  padding: 5px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.user-service-order-dialog4 .dialog-footer-info {
+  margin-top: 25px;
+  padding-top: 27px;
+  text-align: center;
+  color: #666666;
+  line-height: 24px;
+}
+
+.user-service-order-dialog4 .dialog-footer {
+  padding-bottom: 30px;
+  text-align: right;
+}
+
+.user-service-order-dialog4 .upload-demo {
+  margin-top: 22px;
+}
+
+/*服务订单 - 服务评价 弹窗*/
+.user-service-order-dialog.el-dialog--evaluate form {
+  width: 100%;
+}
+
+.user-service-order-dialog.el-dialog--evaluate .el-dialog__body {
+  padding: 27px 54px 8px 23px;
+}
+
+.user-service-order-dialog.el-dialog--evaluate .order-number {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.user-service-order-dialog.el-dialog--evaluate .order-number span{
+  margin-left:15px;
+}
+
+.user-service-order-dialog.el-dialog--evaluate .img-link img,
+.user-service-order-dialog.el-dialog--evaluate figure {
+  width: 304px;
+  margin-right: 22px;
+}
+
+.user-service-order-dialog.el-dialog--evaluate figcaption {
+  padding: 10px 0 6px;
+}
+
+.user-service-order-dialog.el-dialog--evaluate figcaption strong {
+  font-weight: 400;
+  font-size: 18px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.user-service-order-dialog.el-dialog--evaluate .el-checkbox-button__inner {
+  padding: 6px 15px;
+  font-size: 12px;
+  border: 1px solid #D9D9D9;
+  color: #8F8F8F;
+  border-radius: 4px;
+  margin: 0 12px 15px 0;
+
+}
+
+.user-service-order-dialog.el-dialog--evaluate .el-checkbox-button__inner:hover {
+  background-color: #E6F0FF;
+  border: 1px solid #E6F0FF;
+}
+
+.user-service-order-dialog.el-dialog--evaluate .is-checked {
+  border: 0 none;
+}
+
+.user-service-order-dialog.el-dialog--evaluate .is-checked .el-checkbox-button__inner {
+  color: #6799E3;
+  background: #E6F0FF;
+  box-shadow: none;
+}
+
+.user-service-order-dialog.el-dialog--evaluate h6 {
+  margin-bottom: 12px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
+}
+
+.user-service-order-dialog.el-dialog--evaluate .el-form-item__content {
+  line-height: 10px;
+}
+
+.user-service-order-dialog.el-dialog--evaluate .form-item-satisfaction {
+  margin-bottom: 43px;
+}
+
+.user-service-order-dialog.el-dialog--evaluate .form-item-impressions {
+  margin-bottom: 25px;
+}
+
+.user-service-order-dialog.el-dialog--evaluate textarea {
+  height: 168px;
+}
+
+.user-service-order-dialog1.el-dialog--evaluate .el-dialog__footer {
+  padding-bottom: 29px;
+  padding-right: 54px;
+}
+
+.user-service-order-dialog.el-dialog--evaluate .impressionsAddIcon {
+  font-size: 20px;
+  display: inline-block;
+  position: relative;
+  top: -4px;
+  color: #AAA;
+}
+
+.user-service-order-dialog.el-dialog--evaluate .impressionsAddIcon:hover {
+  color: #555;
+}
+
+.user-service-order-dialog .flex {
+  display: flex;
+}
+
+/*对话框公共样式*/
+.el-radio__input.is-checked+span{
+  color: #3F67FF;
+}
+.el-radio__input.is-checked .el-radio__inner {
+  border-color: #3F67FF;
+  background-color: #3F67FF;
+}
+.user-service-order-dialog .el-button--default:hover,
+.user-service-order-dialog .el-button--default:hover span{
+  border-color: #235efd;
+  color: #235efd;
+}

@@ -1,0 +1,128 @@
+/*
+  登录、注册、找回密码组件公共样式
+*/
+/*
+  登录、注册、找回密码组件样式的公共变量
+*/
+.login-passwordFind-register-main .el-button--primary {
+  background-color: #3f67ff !important;
+  border-color: #3f67ff !important;
+  width: 100%;
+  height: 40px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+.login-passwordFind-register-main .el-button--primary span {
+  font-size: 16px;
+}
+.login-passwordFind-register-main .el-form-item__content {
+  line-height: 40px;
+}
+.login-passwordFind-register-main .el-input__inner {
+  color: #4b4b4b;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+.login-passwordFind-register-main .el-input__inner {
+  height: 40px;
+  box-sizing: border-box;
+  padding-left: 47px;
+  padding-right: 36px;
+  font-size: 14px;
+}
+.login-passwordFind-register-main .el-input__inner:focus {
+  border-color: #3f67ff;
+}
+.login-passwordFind-register-main .form-item-icode .el-input__inner {
+  padding-right: 100px;
+}
+.login-passwordFind-register-main .el-button--default:focus,
+.login-passwordFind-register-main .el-button--default:hover {
+  border-color: #3f67ff;
+}
+.login-passwordFind-register-main .el-button--default:focus span,
+.login-passwordFind-register-main .el-button--default:hover span {
+  color: #3f67ff;
+}
+.passwordFind-register-main .login-main .el-form-item {
+  position: relative;
+  margin-bottom: 20px;
+}
+.passwordFind-register-main .login-main .el-form-item.submit-wrapper {
+  margin-bottom: 10px;
+}
+.passwordFind-register-main .icode .el-input__inner {
+  padding-right: 88px;
+}
+.login-passwordFind-register-main .icon-wrapper {
+  position: absolute;
+  top: 0;
+  text-align: center;
+}
+.login-passwordFind-register-main .icon-wrapper-left {
+  left: 0;
+  width: 47px;
+}
+.login-passwordFind-register-main .icon-wrapper-right {
+  right: 0;
+  width: 36px;
+}
+.login-passwordFind-register-main .iconfont.icon-user {
+  font-size: 18px;
+}
+.login-passwordFind-register-main .iconfont.icon-yanzheng {
+  font-size: 23px;
+}
+.login-passwordFind-register-main .iconfont.icon-cross2 {
+  font-size: 16px;
+}
+.login-passwordFind-register-main .iconfont.icon-suo {
+  font-size: 18px;
+}
+.login-passwordFind-register-main .iconfont.icon-visible {
+  font-size: 15px;
+}
+.login-passwordFind-register-main .el-form .icon-visible:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(0, -50%) rotate(-45deg);
+  transform-origin: left center;
+  width: 20px;
+  height: 20px;
+  font-size: 18px;
+  opacity: 1;
+  border-left: 1px solid #000;
+}
+.login-passwordFind-register-main .el-form .icon-psw-hidden:after {
+  display: none;
+}
+.iconfont.icon-yanzheng {
+  font-size: 22px;
+}
+.passwordFind-register-main .icon-wrapper.icode-wrapper {
+  width: 96px;
+  height: 38px;
+  top: 1px;
+  right: 1px;
+  background-color: #E5E5E5;
+  color: #4B4B4B;
+}
+.passwordFind-register-main .icon-wrapper.icode-wrapper:hover {
+  opacity: 0.9;
+}
+.passwordFind-register-main .loginRegister-form-iconImg {
+  width: 96px;
+  height: 100%;
+  vertical-align: top;
+}
+.el-input__inner {
+  color: #4b4b4b !important;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}

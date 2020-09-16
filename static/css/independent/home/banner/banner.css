@@ -1,0 +1,37 @@
+.qj-banner {
+  width: 720px;
+  height: 440px;
+  background: #ddd;
+  float: left;
+  margin: 0 10px;
+  z-index: 0;
+}
+.qj-banner .el-carousel__item h3 {
+  color: #475669;
+  font-size: 14px;
+  opacity: 0.75;
+  line-height: 150px;
+  margin: 0;
+}
+.qj-banner .el-carousel__item:nth-child(2n) {
+  background-color: #99a9bf;
+}
+.qj-banner .el-carousel__item:nth-child(2n+1) {
+  background-color: #d3dce6;
+}
+.qj-banner .el-carousel__arrow {
+  display: none;
+}
+.qj-banner .el-carousel__indicator .el-carousel__button {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.qj-banner .el-carousel__item {
+  width: 720px;
+  height: 440px;
+}
+.qj-banner .el-carousel__item img {
+  width: 100%;
+  height: 100%;
+}

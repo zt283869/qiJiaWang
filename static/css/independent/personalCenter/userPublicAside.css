@@ -1,0 +1,103 @@
+.user-public-aside {
+  background-color: #FFF;
+  width: 230px;
+}
+.user-public-aside figure {
+  padding: 38px 0 24px;
+  text-align: center;
+}
+.user-public-aside figure img {
+  width: 100px;
+  height: 100px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+}
+.user-public-aside figcaption {
+  line-height: 1em;
+  margin-top: 25px;
+  font-size: 18px;
+  color: #000;
+}
+.user-public-aside .aside-list {
+  line-height: 60px;
+  font-size: 14px;
+  color: #000000;
+  background-color: #FFF;
+}
+.user-public-aside figure,
+.user-public-aside .el-submenu__title,
+.user-public-aside .el-menu-item {
+  border-bottom: 1px solid #E9E9E9 !important;
+}
+.user-public-aside .aside-list > li {
+  text-indent: 50px;
+}
+.user-public-aside .aside-list span,
+.user-public-aside .aside-list .el-submenu__title,
+.user-public-aside .aside-list a {
+  position: relative;
+  font-size: 14px;
+  color: #000000;
+  display: block;
+  border-left: 3px solid transparent;
+  transition: all .2s ease;
+}
+.user-public-aside .aside-list i {
+  width: 35px;
+  display: inline-block;
+  position: absolute;
+  left: -28px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.user-public-aside .aside-list i:before {
+  font-size: 17px;
+  font-weight: 700;
+}
+.user-public-aside .dingdan {
+  color: #497CFF;
+}
+.user-public-aside .chuagnyequan {
+  color: #FF5F00;
+}
+.user-public-aside .huodong {
+  color: #FF9700;
+}
+.user-public-aside .shezhi {
+  color: #5F7C8A;
+}
+.user-public-aside .el-submenu__title:hover,
+.user-public-aside .aside-list .router-link-exact-active,
+.user-public-aside .aside-list .el-menu-item:hover i:before,
+.user-public-aside .aside-list .router-link-active i:before {
+  color: #235EFD;
+}
+.user-public-aside .aside-list .router-link-exact-active,
+.user-public-aside .aside-list a:hover {
+  border-color: #235EFD;
+  color: #235EFD;
+}
+.user-public-aside .el-submenu .el-menu-item a {
+  display: block;
+}
+/* 重置element样式 */
+.user-public-aside .el-submenu .el-menu,
+.user-public-aside .el-submenu:hover,
+.user-public-aside .el-submenu .el-menu-item:hover,
+.user-public-aside .el-submenu__title:hover,
+.user-public-aside .el-submenu__title:hover,
+.user-public-aside .el-menu-item:hover {
+  background: transparent !important;
+}
+.user-public-aside .el-menu-item,
+.user-public-aside .el-submenu__title {
+  padding: 0 !important;
+}
+.user-public-aside .el-submenu__icon-arrow {
+  display: none !important;
+}

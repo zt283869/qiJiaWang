@@ -1,0 +1,197 @@
+/*首页侧边服务导航 start*/
+.home-aside-service-nav{
+  width:210px;
+  height:440px;
+  background-color: #333;
+  overflow: hidden;
+}
+.home-aside-service-nav .tab{
+  font-size:14px;
+  color:  #FEFEFE;
+  background-color: #141414;
+  text-align: center;
+  line-height:40px;
+}
+.home-aside-service-nav li{
+  padding:0 33px 0 26px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.home-aside-service-nav a{
+  font-size:14px;
+  display: block;
+  line-height:50px;
+  height:50px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #FEFEFE;
+  padding-left:16px;
+  border-bottom: 1px solid #424242;
+  position: relative;
+}
+.home-aside-service-nav li:last-child a{
+  border-color: transparent;
+}
+.home-aside-service-nav .arrow:after,
+.home-aside-service-nav .arrow:before{
+  content: "";
+  display: block;
+  width:0;
+  height:0;
+  position: absolute;
+  right:0;
+  top:50%;
+  margin-top:-5.5px;
+  border:7px solid #FFF;
+  border-color: transparent #FFF transparent #FFF;
+  border-width:5.5px 6px;
+  border-right:0 none;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.home-aside-service-nav .arrow:after{
+  border-left-color: #333;
+  right:1px;
+}
+.home-aside-service-nav li:hover,
+.home-aside-service-nav li.active{
+  background-color: #3669FE;
+}
+.home-aside-service-nav li:hover a,
+.home-aside-service-nav li.active a{
+  border-color: transparent;
+}
+.home-aside-service-nav li:hover .arrow:after,
+.home-aside-service-nav li.active .arrow:after{
+  border-left-color: #3669FE;
+}
+.home-aside-service-nav,
+.home-aside-service-wrapper{
+  position: relative;
+  z-index:9;
+}
+/*抽屉菜单*/
+.home-aside-subService-wrapper{
+  position: absolute;
+  top:0px;
+  background: #FFF;
+  width:980px;
+  height:440px;
+  border: 2px solid #3669FE;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  left:-1000px;
+  transition: all 0.2s cubic-bezier(0, 0.98, 0.46, 1);
+}
+.home-aside-subService-wrapper.show{
+  left:210px;
+  transition-duration: .8s;
+}
+.home-aside-subService-inner{
+  width:720px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding:39px 40px 39px 32px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url(../../../../img/home/home/asideNav/home-subService-bg.jpg) right 55px  bottom 9px no-repeat;
+  height:100%;
+}
+.home-aside-subService-inner section{
+  padding:23px 0 0 0;
+}
+.home-aside-subService-inner section:first-child{
+  padding-top:0;
+}
+.home-aside-subService-inner .sub-name,
+.home-aside-subService-inner .srs-list{
+  display: table-cell;
+  line-height:1em;
+}
+.home-aside-subService-inner .sub-name{
+  color: #000;
+  font-size:14px;
+  white-space:nowrap;
+  min-width:100px;
+  font-weight:700;
+}
+.home-aside-subService-inner .srs-list{
+  color: #FFF;
+  border-bottom:1px dashed #D5D5D5;
+  padding-bottom:6px;
+  line-height:0;
+}
+.home-aside-subService-inner section:last-child  .srs-list{
+  border-bottom:0 none;
+}
+.home-aside-subService-inner .srs-list li{
+  display: inline-block;
+  margin:0 21px 17px 0;
+  line-height:1em;
+  font-size:0;
+}
+.home-aside-subService-inner .srs-list a{
+  color: #4A4A4A;
+  font-size:14px;
+  line-height:1em;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition:  all 0.2s ease;
+  -ms-transition:  all 0.2s ease;
+  -o-transition:  all 0.2s ease;
+  transition:  all 0.2s ease;
+}
+.home-aside-subService-inner .srs-list a:hover{
+  color: #3669FE;
+}
+/*自助查询工具*/
+.home-aside-subService-shortcut{
+  border-left: 1px solid #E4E4E4;
+  width:255px;
+  height:100%;
+}
+.home-aside-subService-shortcut section{
+  height:50%;
+}
+.home-aside-subService-shortcut section:first-child{
+  border-bottom:1px solid #E4E4E4;
+}
+
+.home-aside-subService-shortcut a{
+  display: block;
+  height:100%;
+  text-align: center;
+  padding-top:177px;
+  box-sizing: border-box;
+  line-height:1em;
+  background: url(../../../../img/home/home/asideNav/home-subService-shortcut-bg1.png) center 23px no-repeat;
+  background-size: 145px 145px;
+  font-size:14px;
+}
+.home-aside-subService-shortcut section:nth-child(2) a{
+  background-image: url(../../../../img/home/home/asideNav/home-subService-shortcut-bg2.png);
+}
+.home-aside-subService-shortcut a:hover{
+  color: #3669FE;
+  -webkit-animation: background-shaving 0.3s cubic-bezier(0,1,1,1);
+  -o-animation: background-shaving 0.3s cubic-bezier(0,1,1,1);
+  animation: background-shaving 0.3s cubic-bezier(0,1,1,1);
+}
+@keyframes background-shaving{
+  50%{
+    background-position: center 20px;
+  }
+  100%{
+    background-position: center 23px;
+  }
+}
